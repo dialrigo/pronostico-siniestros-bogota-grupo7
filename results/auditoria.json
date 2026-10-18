@@ -1,0 +1,112 @@
+{
+  "registros": 290184,
+  "fecha_min": "2015-01-01",
+  "fecha_max": "2025-12-31",
+  "dias_rango": 4018,
+  "dias_sin_registro": 0,
+  "dias_sin_victimas": 0,
+  "nulos_pct": {
+    "localidad": 0.0,
+    "gravedad_tradicional": 3.99,
+    "gravedad_30d": 0.05
+  },
+  "gravedad": {
+    "Solo Daños": 160018,
+    "Con Heridos": 124529,
+    "Con Muertos": 5489
+  },
+  "clase": {
+    "Choque": 242310,
+    "Atropello": 33474,
+    "Caida de ocupante": 8193,
+    "Volcamiento": 4662,
+    "Otro": 1494,
+    "Incendio": 37,
+    "Autolesión": 14
+  },
+  "localidades": 20,
+  "por_anio_gravedad": {
+    "2015": {
+      "Con Heridos": 10738,
+      "Con Muertos": 517,
+      "Solo Daños": 20088
+    },
+    "2016": {
+      "Con Heridos": 10581,
+      "Con Muertos": 543,
+      "Solo Daños": 23852
+    },
+    "2017": {
+      "Con Heridos": 10403,
+      "Con Muertos": 523,
+      "Solo Daños": 24217
+    },
+    "2018": {
+      "Con Heridos": 12586,
+      "Con Muertos": 485,
+      "Solo Daños": 23857
+    },
+    "2019": {
+      "Con Heridos": 12402,
+      "Con Muertos": 469,
+      "Solo Daños": 22122
+    },
+    "2020": {
+      "Con Heridos": 8580,
+      "Con Muertos": 356,
+      "Solo Daños": 13776
+    },
+    "2021": {
+      "Con Heridos": 11015,
+      "Con Muertos": 452,
+      "Solo Daños": 17388
+    },
+    "2022": {
+      "Con Heridos": 12371,
+      "Con Muertos": 516,
+      "Solo Daños": 12566
+    },
+    "2023": {
+      "Con Heridos": 12473,
+      "Con Muertos": 526,
+      "Solo Daños": 1115
+    },
+    "2024": {
+      "Con Heridos": 12361,
+      "Con Muertos": 551,
+      "Solo Daños": 1037
+    },
+    "2025": {
+      "Con Heridos": 11019,
+      "Con Muertos": 551,
+      "Solo Daños": 0
+    }
+  },
+  "solo_danos_mensual_2022": {
+    "2022-06-30": 1490,
+    "2022-07-31": 1329,
+    "2022-08-31": 1042,
+    "2022-09-30": 1028,
+    "2022-10-31": 292,
+    "2022-11-30": 181,
+    "2022-12-31": 171,
+    "2023-01-31": 95
+  },
+  "victimas_por_dia_por_anio": {
+    "2015": 30.8,
+    "2016": 30.4,
+    "2017": 29.9,
+    "2018": 35.8,
+    "2019": 35.3,
+    "2020": 24.4,
+    "2021": 31.4,
+    "2022": 35.3,
+    "2023": 35.6,
+    "2024": 35.3,
+    "2025": 31.7
+  },
+  "gravedad_tradicional_vs_30d_victimas": {
+    "tradicional": 118536,
+    "30d": 118448
+  }
+}

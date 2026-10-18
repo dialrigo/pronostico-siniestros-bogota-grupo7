@@ -1,0 +1,42 @@
+orígenes de entrenamiento: 2319 (de 2887; modo excluir)
+{'modelo': 'GRU', 'ventana': 14, 'hidden': 32, 'lr': 0.001, 'dropout': 0.0, 'val_MAE': 5.056957217159867, 'val_RMSE': 6.4957067466919085, 'epocas': 52, 'seg': 143.179545879364, 'params': 7719}
+{'modelo': 'GRU', 'ventana': 14, 'hidden': 32, 'lr': 0.001, 'dropout': 0.2, 'val_MAE': 5.08688548299995, 'val_RMSE': 6.564797771230374, 'epocas': 58, 'seg': 80.39573502540588, 'params': 7719}
+{'modelo': 'GRU', 'ventana': 14, 'hidden': 32, 'lr': 0.003, 'dropout': 0.0, 'val_MAE': 5.062905434402854, 'val_RMSE': 6.52140491653003, 'epocas': 38, 'seg': 6.393892288208008, 'params': 7719}
+{'modelo': 'GRU', 'ventana': 14, 'hidden': 32, 'lr': 0.003, 'dropout': 0.2, 'val_MAE': 5.049793886542925, 'val_RMSE': 6.507786974269531, 'epocas': 39, 'seg': 9.767417907714844, 'params': 7719}
+{'modelo': 'GRU', 'ventana': 14, 'hidden': 64, 'lr': 0.001, 'dropout': 0.0, 'val_MAE': 5.0504895915793995, 'val_RMSE': 6.489951496024031, 'epocas': 39, 'seg': 11.116016149520874, 'params': 23623}
+{'modelo': 'GRU', 'ventana': 14, 'hidden': 64, 'lr': 0.001, 'dropout': 0.2, 'val_MAE': 5.0832404016923585, 'val_RMSE': 6.558557028066654, 'epocas': 38, 'seg': 8.44611930847168, 'params': 23623}
+{'modelo': 'GRU', 'ventana': 14, 'hidden': 64, 'lr': 0.003, 'dropout': 0.0, 'val_MAE': 5.0894205960591306, 'val_RMSE': 6.553505014065317, 'epocas': 34, 'seg': 7.194320201873779, 'params': 23623}
+{'modelo': 'GRU', 'ventana': 14, 'hidden': 64, 'lr': 0.003, 'dropout': 0.2, 'val_MAE': 5.075358306491528, 'val_RMSE': 6.537017790938778, 'epocas': 33, 'seg': 7.140491724014282, 'params': 23623}
+{'modelo': 'GRU', 'ventana': 28, 'hidden': 32, 'lr': 0.001, 'dropout': 0.0, 'val_MAE': 5.007546606573562, 'val_RMSE': 6.453029460500248, 'epocas': 53, 'seg': 13.880268096923828, 'params': 7719}
+{'modelo': 'GRU', 'ventana': 28, 'hidden': 32, 'lr': 0.001, 'dropout': 0.2, 'val_MAE': 4.9542744648534205, 'val_RMSE': 6.426792164494138, 'epocas': 100, 'seg': 27.278407335281372, 'params': 7719}
+{'modelo': 'GRU', 'ventana': 28, 'hidden': 32, 'lr': 0.003, 'dropout': 0.0, 'val_MAE': 5.023140993266216, 'val_RMSE': 6.455345337060249, 'epocas': 39, 'seg': 10.760955333709717, 'params': 7719}
+{'modelo': 'GRU', 'ventana': 28, 'hidden': 32, 'lr': 0.003, 'dropout': 0.2, 'val_MAE': 4.984443576530704, 'val_RMSE': 6.453311010883107, 'epocas': 39, 'seg': 10.294734001159668, 'params': 7719}
+{'modelo': 'GRU', 'ventana': 28, 'hidden': 64, 'lr': 0.001, 'dropout': 0.0, 'val_MAE': 5.027003715744115, 'val_RMSE': 6.465734824059606, 'epocas': 39, 'seg': 13.243431806564331, 'params': 23623}
+{'modelo': 'GRU', 'ventana': 28, 'hidden': 64, 'lr': 0.001, 'dropout': 0.2, 'val_MAE': 5.024317536356625, 'val_RMSE': 6.484834125838862, 'epocas': 39, 'seg': 13.56482720375061, 'params': 23623}
+{'modelo': 'GRU', 'ventana': 28, 'hidden': 64, 'lr': 0.003, 'dropout': 0.0, 'val_MAE': 5.035793821214699, 'val_RMSE': 6.519464031440818, 'epocas': 35, 'seg': 11.937948942184448, 'params': 23623}
+{'modelo': 'GRU', 'ventana': 28, 'hidden': 64, 'lr': 0.003, 'dropout': 0.2, 'val_MAE': 5.007798275635008, 'val_RMSE': 6.456169901995581, 'epocas': 33, 'seg': 11.660317659378052, 'params': 23623}
+{'modelo': 'LSTM', 'ventana': 14, 'hidden': 32, 'lr': 0.001, 'dropout': 0.0, 'val_MAE': 4.987289628814801, 'val_RMSE': 6.416066130054737, 'epocas': 75, 'seg': 8.321662902832031, 'params': 8967}
+{'modelo': 'LSTM', 'ventana': 14, 'hidden': 32, 'lr': 0.001, 'dropout': 0.2, 'val_MAE': 5.067007252418996, 'val_RMSE': 6.5323018791588545, 'epocas': 58, 'seg': 7.4993391036987305, 'params': 8967}
+{'modelo': 'LSTM', 'ventana': 14, 'hidden': 32, 'lr': 0.003, 'dropout': 0.0, 'val_MAE': 5.015976941943691, 'val_RMSE': 6.460392478667922, 'epocas': 43, 'seg': 4.056214094161987, 'params': 8967}
+{'modelo': 'LSTM', 'ventana': 14, 'hidden': 32, 'lr': 0.003, 'dropout': 0.2, 'val_MAE': 5.030134052706724, 'val_RMSE': 6.465572492436445, 'epocas': 39, 'seg': 4.036848068237305, 'params': 8967}
+{'modelo': 'LSTM', 'ventana': 14, 'hidden': 64, 'lr': 0.001, 'dropout': 0.0, 'val_MAE': 4.996869771763488, 'val_RMSE': 6.440841756364609, 'epocas': 43, 'seg': 5.826333045959473, 'params': 28167}
+{'modelo': 'LSTM', 'ventana': 14, 'hidden': 64, 'lr': 0.001, 'dropout': 0.2, 'val_MAE': 5.044013042204169, 'val_RMSE': 6.508883413915131, 'epocas': 43, 'seg': 6.006622552871704, 'params': 28167}
+{'modelo': 'LSTM', 'ventana': 14, 'hidden': 64, 'lr': 0.003, 'dropout': 0.0, 'val_MAE': 5.010863832072078, 'val_RMSE': 6.459572044991282, 'epocas': 34, 'seg': 8.213632345199585, 'params': 28167}
+{'modelo': 'LSTM', 'ventana': 14, 'hidden': 64, 'lr': 0.003, 'dropout': 0.2, 'val_MAE': 5.030421359457864, 'val_RMSE': 6.476687724931025, 'epocas': 39, 'seg': 5.3623504638671875, 'params': 28167}
+{'modelo': 'LSTM', 'ventana': 28, 'hidden': 32, 'lr': 0.001, 'dropout': 0.0, 'val_MAE': 4.960013572517145, 'val_RMSE': 6.394494968948811, 'epocas': 39, 'seg': 5.244359254837036, 'params': 8967}
+{'modelo': 'LSTM', 'ventana': 28, 'hidden': 32, 'lr': 0.001, 'dropout': 0.2, 'val_MAE': 5.060747038348593, 'val_RMSE': 6.559383571729298, 'epocas': 52, 'seg': 7.242487192153931, 'params': 8967}
+{'modelo': 'LSTM', 'ventana': 28, 'hidden': 32, 'lr': 0.003, 'dropout': 0.0, 'val_MAE': 4.9717927733232745, 'val_RMSE': 6.411872606138642, 'epocas': 34, 'seg': 4.558475732803345, 'params': 8967}
+{'modelo': 'LSTM', 'ventana': 28, 'hidden': 32, 'lr': 0.003, 'dropout': 0.2, 'val_MAE': 4.980862137128582, 'val_RMSE': 6.464230822644483, 'epocas': 36, 'seg': 4.636221885681152, 'params': 8967}
+{'modelo': 'LSTM', 'ventana': 28, 'hidden': 64, 'lr': 0.001, 'dropout': 0.0, 'val_MAE': 5.0389837108116025, 'val_RMSE': 6.498918836380105, 'epocas': 43, 'seg': 8.034672737121582, 'params': 28167}
+{'modelo': 'LSTM', 'ventana': 28, 'hidden': 64, 'lr': 0.001, 'dropout': 0.2, 'val_MAE': 5.020595673474697, 'val_RMSE': 6.517916540095252, 'epocas': 43, 'seg': 8.34798789024353, 'params': 28167}
+{'modelo': 'LSTM', 'ventana': 28, 'hidden': 64, 'lr': 0.003, 'dropout': 0.0, 'val_MAE': 5.007512390726292, 'val_RMSE': 6.443355243280886, 'epocas': 34, 'seg': 6.650676012039185, 'params': 28167}
+{'modelo': 'LSTM', 'ventana': 28, 'hidden': 64, 'lr': 0.003, 'dropout': 0.2, 'val_MAE': 4.9612113311574975, 'val_RMSE': 6.409447645791126, 'epocas': 39, 'seg': 8.009283304214478, 'params': 28167}
+GRU {'val_MAE': [4.9613599800166375, 0.015982961293750455], 'test_MAE': [5.345110298684706, 0.04600874114260216], 'test_RMSE': [6.638500110365122, 0.062394481039887977]}
+GRU sin lluvia {'val_MAE': [4.987705163547829, 0.010351317224082652], 'test_MAE': [5.239598243007175, 0.009759483325393293], 'test_RMSE': [6.54054444305708, 0.00793993175784918]}
+GRU sin calendario futuro {'val_MAE': [5.506272071350736, 0.030962607016868482], 'test_MAE': [5.7615784482885815, 0.02406657046359427], 'test_RMSE': [7.242034415185121, 0.023619249943024938]}
+GRU con pandemia + indicador {'val_MAE': [5.045671454795271, 0.018462535660217737], 'test_MAE': [5.305652288551346, 0.006723423805796266], 'test_RMSE': [6.590378984899431, 0.0014808565160590453]}
+LSTM {'val_MAE': [4.982784871123786, 0.024656210246776892], 'test_MAE': [5.351983289313232, 0.02590115146469413], 'test_RMSE': [6.635615735308979, 0.02346416189184263]}
+LSTM sin lluvia {'val_MAE': [4.9665091415743525, 0.03555347455988362], 'test_MAE': [5.298214506775069, 0.017883740321139173], 'test_RMSE': [6.589331577924294, 0.018124615642832756]}
+LSTM sin calendario futuro {'val_MAE': [5.527953034444255, 0.0343155912436585], 'test_MAE': [5.777195671713034, 0.04592067336556347], 'test_RMSE': [7.231812863455392, 0.04921492299654682]}
+LSTM con pandemia + indicador {'val_MAE': [5.051242830969564, 0.016474974324102866], 'test_MAE': [5.346892723527804, 0.005846181549552757], 'test_RMSE': [6.632850672366051, 0.007364931654043354]}
+OK

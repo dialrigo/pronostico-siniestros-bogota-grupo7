@@ -1,0 +1,39 @@
+# Configuración central del experimento (todo lo que se mantiene fijo entre experimentos)
+seed: 42
+
+data:
+  siniestros_csv: [data/raw/siniestros_2015_2024.csv, data/raw/siniestros_2025.csv]   # Anuario SDM (SIGAT)
+  clima_csv: data/raw/openmeteo_bogota_diario.csv
+  fecha_inicio: "2015-01-01"
+  fecha_fin: "2025-12-31"
+  # Objetivo: siniestros con víctimas (heridos o muertos, indicador a 30 días). Los "solo daños"
+  # dejan de registrarse de forma comparable desde oct-2022, por eso no se usan como objetivo.
+  processed: data/processed/serie_diaria.csv
+
+# Pandemia: periodo atípico (restricciones de movilidad, cuarentenas, paro de 2021). Por defecto se EXCLUYE del
+# entrenamiento: se descartan los orígenes cuya ventana de entrada u objetivos tocan el periodo. El modo "indicador"
+# (control) lo conserva con una variable binaria de régimen.
+pandemia:
+  modo: excluir                   # excluir | indicador
+confinamiento:                    # periodo atípico (también define el indicador en el modo de control)
+  - ["2020-03-16", "2021-08-31"]
+
+split:                            # partición temporal estricta, sin mezclar fechas
+  train_fin: "2022-12-31"
+  val_inicio: "2023-01-01"
+  val_fin: "2023-12-31"
+  test_inicio: "2024-01-01"
+
+pronostico:
+  horizonte: 7                    # se pronostican los próximos 7 días desde cada origen
+  estacionalidad: 7
+
+modelos_dl:
+  ventana_grid: [14, 28]
+  hidden_grid: [32, 64]
+  lr_grid: [0.001, 0.003]
+  dropout_grid: [0.0, 0.2]
+  batch_size: 64
+  max_epochs: 300
+  paciencia: 25
+  semillas_finales: [42, 7, 2024]

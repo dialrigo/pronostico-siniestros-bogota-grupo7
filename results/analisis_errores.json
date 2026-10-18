@@ -1,0 +1,144 @@
+{
+  "mejor_base_por_validacion": "Ridge con rezagos",
+  "mejor_red_por_validacion": "GRU",
+  "mae_por_anio": {
+    "GRU": {
+      "2024": 5.18,
+      "2025": 5.6
+    },
+    "LSTM": {
+      "2024": 5.2,
+      "2025": 5.45
+    },
+    "SARIMAX": {
+      "2024": 5.5,
+      "2025": 5.43
+    },
+    "Ridge con rezagos": {
+      "2024": 5.43,
+      "2025": 5.51
+    }
+  },
+  "sesgo_por_anio": {
+    "LSTM": {
+      "2024": -0.18,
+      "2025": 0.83
+    },
+    "SARIMAX": {
+      "2024": -1.19,
+      "2025": -0.22
+    },
+    "Ridge con rezagos": {
+      "2024": -1.26,
+      "2025": -0.13
+    }
+  },
+  "por_dow": {
+    "GRU": {
+      "Lun": 5.33,
+      "Mar": 5.91,
+      "Mié": 4.93,
+      "Jue": 5.79,
+      "Vie": 4.8,
+      "Sáb": 6.3,
+      "Dom": 4.67
+    },
+    "LSTM": {
+      "Lun": 5.27,
+      "Mar": 5.64,
+      "Mié": 5.08,
+      "Jue": 5.79,
+      "Vie": 4.78,
+      "Sáb": 6.12,
+      "Dom": 4.61
+    },
+    "SARIMAX": {
+      "Lun": 5.21,
+      "Mar": 5.71,
+      "Mié": 5.27,
+      "Jue": 6.12,
+      "Vie": 5.14,
+      "Sáb": 6.22,
+      "Dom": 4.57
+    },
+    "Ridge con rezagos": {
+      "Lun": 5.35,
+      "Mar": 5.64,
+      "Mié": 5.04,
+      "Jue": 6.12,
+      "Vie": 4.97,
+      "Sáb": 6.36,
+      "Dom": 4.83
+    }
+  },
+  "por_festivo": {
+    "GRU": {
+      "0": 5.41,
+      "1": 5.03
+    },
+    "LSTM": {
+      "0": 5.33,
+      "1": 5.17
+    },
+    "SARIMAX": {
+      "0": 5.48,
+      "1": 5.1
+    },
+    "Ridge con rezagos": {
+      "0": 5.48,
+      "1": 5.33
+    }
+  },
+  "sesgo_medio": {
+    "GRU": 0.44,
+    "LSTM": 0.32,
+    "SARIMAX": -0.71,
+    "Ridge con rezagos": -0.69
+  },
+  "lluvia_p90": {
+    "GRU": {
+      "false": 5.36,
+      "true": 5.69
+    },
+    "SARIMAX": {
+      "false": 5.4,
+      "true": 5.98
+    },
+    "Ridge con rezagos": {
+      "false": 5.43,
+      "true": 5.89
+    }
+  },
+  "peores_dias_mejor_red": {
+    "2025-12-07": {
+      "y": 43,
+      "mae": 19.4,
+      "festivo": 0
+    },
+    "2025-02-06": {
+      "y": 16,
+      "mae": 19.2,
+      "festivo": 0
+    },
+    "2025-02-12": {
+      "y": 54,
+      "mae": 19.1,
+      "festivo": 0
+    },
+    "2025-03-06": {
+      "y": 20,
+      "mae": 18.6,
+      "festivo": 0
+    },
+    "2024-07-21": {
+      "y": 40,
+      "mae": 18.4,
+      "festivo": 0
+    },
+    "2025-11-01": {
+      "y": 19,
+      "mae": 18.3,
+      "festivo": 0
+    }
+  }
+}
